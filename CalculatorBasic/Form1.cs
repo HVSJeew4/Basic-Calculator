@@ -197,6 +197,15 @@ namespace CalculatorBasic
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+           Application.Exit();
+        }
     }
 }
 
